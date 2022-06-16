@@ -2,6 +2,6 @@
 yum install -y httpd php git
 service httpd start
 cd
-git clone https://github.com/AventureCloud/Virtual-Machines/tree/main/Centos-AutoInstallWebSite
-cp ./Centos-AutoInstallWebSite/* /var/www/html
+git clone https://github.com/AventureCloud/Centos-Bootstrap
+cp ./Centos-Bootstrap/* /var/www/html
 mv /var/www/html/htaccess /var/www/html/.htaccess
